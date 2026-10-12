@@ -83,6 +83,9 @@ namespace RaceDay.Api.Data
                 e.HasOne(x => x.Enrolment).WithOne(en => en.Result)
                     .HasForeignKey<Result>(x => x.EnrolmentId).OnDelete(DeleteBehavior.Cascade);
             });
+            modelBuilder.Entity<Role>().HasData(
+    new Role { RoleId = 1, RoleName = "Organiser" },
+    new Role { RoleId = 2, RoleName = "Participant" });
         }
     }
 }
