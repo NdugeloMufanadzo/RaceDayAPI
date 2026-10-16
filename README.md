@@ -4,8 +4,7 @@
 
 RaceDay is a RESTful ASP.NET Core Web API (C#, .NET 8) for managing running, walking and cycling events. Organisers create events and categories and record results. Participants enrol in events and view their results. It uses Entity Framework Core (Code-First) with SQL Server.
 
-**Video demo:** YOUTUBE UNLISTED LINK HERE
-
+**Video demo:** https://youtu.be/vi2XRMU9pbk
 ## Build status
 
 ![CI green build](ci-green.png)
